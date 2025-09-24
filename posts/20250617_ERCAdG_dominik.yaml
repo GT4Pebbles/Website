@@ -1,0 +1,16 @@
+# YAML Document starts with ---
+# Comments start with #
+---
+title: "ERC Advanced Grant for Carsten Dominik - GT4Pebbles: Ground Truth for Pebbles"
+author: Carsten
+date: 2025-06-17
+category: other
+image: 20250617_ERCAdG_dominik.jpg
+link:
+reference: "Credit: Dominik"
+body: "The discovery of exoplanetary systems has triggered a boost in the development of planet formation models. Most of these models rely on the presence of so-called pebbles – dust aggregates that have grown and been compacted in just the right way to be dynamically loosely coupled to the gas in the planet-forming disk. Only then do they enable key processes that produce planetary seeds and grow them efficiently into planets, overcoming growth barriers and enormous time scale problems. The models require that conversion of micron-sized dust particles into pebbles is global, efficient and fast. However, this is currently an unproven assumption that renders base assumptions of these models as shaky. GT4Pebbles will answer the following questions:
+- Do pebbles with useful properties for planet formation actually form, and with sufficient abundance?
+- What are the quantitative properties of these pebbles, and the consequences for planet formation models, disk observations and disk mass measurements?
+Building upon my recent advances in modeling and disk observations, and on advances in experimental technology in our partner laboratory, we will develop the first full-size range fractal dust-agglomeration experiment. We will gain comprehensive insights into the formation and properties of dust aggregates without relying on extreme extrapolations. By integrating experimental results with advanced numerical models, we will derive the structural, mechanical and optical properties of these aggregates as they evolve into pebbles. We will create a robust global dust growth model that for the first time meticulously accounts for porosity and compaction phenomena. This research will enable us to identify and characterize the initial seeds crucial for planet formation models in disks, providing valuable contributions to our understanding of planetary-system formation.
+With GT4Pebbles, planet formation models will no longer be “built on sand”, but on a solid foundation.
+"

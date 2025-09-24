@@ -1,0 +1,55 @@
+
+<!-- Feature box start -->
+<section id="feature" class="feature">
+	<div class="container">
+		<div class="row">
+			<div class="feature-box col-md-6 col-lg-4 wow fadeInDown" data-wow-delay=".5s">
+				<span class="feature-icon float-left"><i class="fa fa-heart-o"></i></span>
+				<div class="feature-content">
+					<h3>Fast Radio Bursts</h3>
+					<p>Unraveling the nature of the fastest and most luminous radio flashes in the Universe</p>
+				</div>
+			</div>
+			<!--/ End first featurebox -->
+
+			<div class="feature-box col-md-6 col-lg-4 wow fadeInDown" data-wow-delay=".5s">
+				<span class="feature-icon float-left"><i class="fa fa-codepen"></i></span>
+				<div class="feature-content">
+					<h3>Radio Observations</h3>
+					<p>Using single-dish and (very long baseline) interferometry radio observations</p>
+				</div>
+			</div>
+			<div class="feature-box col-md-6 col-lg-4 wow fadeInDown" data-wow-delay=".5s">
+				<span class="feature-icon float-left"><i class="fa fa-film"></i></span>
+				<div class="feature-content">
+					<h3>Pinpointing</h3>
+					<p>High-resolution imaging and localization of fast radio transients</p>
+				</div>
+			</div>
+			<div class="feature-box col-md-6 col-lg-4 wow fadeInDown" data-wow-delay=".5s">
+				<span class="feature-icon float-left"><i class="fa fa-newspaper-o"></i></span>
+				<div class="feature-content">
+					<h3>Narrowest bursts</h3>
+					<p>High-time resolution to unveil nanosecond and microsecond scales</p>
+				</div>
+			</div>
+			<div class="feature-box col-md-6 col-lg-4 wow fadeInDown" data-wow-delay=".5s">
+				<span class="feature-icon float-left"><i class="fa fa-desktop"></i></span>
+				<div class="feature-content">
+					<h3>Open-source software</h3>
+					<p>Developing novel algorithms for the study of fast radio transients</p>
+				</div>
+			</div>
+			<div class="feature-box col-md-6 col-lg-4 wow fadeInDown" data-wow-delay=".5s">
+				<span class="feature-icon float-left"><i class="fa fa-pagelines"></i></span>
+				<div class="feature-content">
+					<h3>Unknown emission physics</h3>
+					<p>Extreme environments create coherent radio emission</p>
+				</div>
+			</div>
+		</div><!-- Content row end -->
+
+	</div>
+	<!--/ Container end -->
+</section>
+<!--/ Feature box end -->
