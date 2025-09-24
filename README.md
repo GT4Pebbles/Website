@@ -1,5 +1,3 @@
-[![pages-build-deployment](https://github.com/gt4pebbles/gt4pebbles.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/gt4pebbles/gt4pebbles.github.io/actions/workflows/pages/pages-build-deployment)
-
 # GT4Pebbles Website
 
 This is the repository that holds the [website of the GT4Pebbles group](https://cdominik/gt4pebbles.io or https://gt4pebbled.eu).
