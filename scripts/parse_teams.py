@@ -184,6 +184,7 @@ class Researchers(object):
     def researchers(self):
         return sorted(self._researchers, key=lambda t: t.filename)
 
+    
     @researchers.setter
     def researchers(self, list_of_researchers):
         assert isinstance(list_of_researchers, list)
