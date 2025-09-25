@@ -13,9 +13,13 @@ import argparse
 import traceback
 from pathlib import Path
 
-_ROLES = {'leader': 'Principal Investigators', 'staff': 'Associated Staff', 'postdoc': 'Postdoctoral Researchers',
-          'phd': 'PhD Candidates', 'master': 'Master & Bachelor Students',
-          'affiliated': 'Affiliated Members', 'former': 'Former Members'}
+_ROLES = {'leader': 'Principal Investigators',
+          'staff': 'Associated Staff',
+          'postdoc': 'Postdoctoral Researchers',
+          'phd': 'PhD Candidates',
+          'master': 'Master & Bachelor Students',
+          'affiliated': 'Affiliated Members',
+          'former': 'Former Members'}
 
 logging.basicConfig(level=logging.INFO,
                     format="%(levelname)s : %(asctime)s - %(message)s",
@@ -35,6 +39,7 @@ class Researcher(object):
                 'facebook': {'a_class': 'fb', 'i_class': 'fa fa-facebook'},
                 'twitter': {'a_class': 'twt', 'i_class': 'fa fa-twitter'},
                 'linkedin': {'a_class': 'linkdin', 'i_class': 'fa fa-linkedin'},
+                'email': {'a_class': 'linkdin', 'i_class': 'fa fa-email'},
                 'webpage': {'a_class': 'dribble', 'i_class': 'fa fa-dribbble'}}
 
     @property

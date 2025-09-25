@@ -14,11 +14,15 @@
 # - facebook
 # - twitter
 # - linkedin
-# - personal webpage
+# - webpage
 #
-# Ask Benito in case you want any other one.
+# Ask Carsten in case you want any other one.
 ---
 name: Carsten Dominik
 role: leader
 institute: Anton Pannekoek Institute for Astronomy, University of Amsterdam
 description: Dust aggregatiion simulations and disk observations
+github: https://github.com/cdominik
+linkedin: https://www.linkedin.com/in/carsten-dominik-2151723/
+webpage: https://staff.fnwi.uva.nl/c.dominik/
+# email: c.dominik@uva.nl
