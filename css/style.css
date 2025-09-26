@@ -3556,3 +3556,21 @@ ul.slick-dots .slick-active {
   }
 }
 /*# sourceMappingURL=maps/style.css.map */
+
+@media (max-width: 767px) {
+    /* Main Title: GT4Pebbles */
+    .flex-caption.slider-content h2 {
+        /* Reduce the main title size to something smaller than the original */
+        font-size: 26px !important;
+        line-height: 1.2;
+    }
+
+    /* Sub-Heading: Unraveling the Formation of Pebbles... */
+    .flex-caption.slider-content h3 {
+        /* Significantly reduce the sub-heading font size to ensure it fits and is smaller than the h2 */
+        font-size: 14px !important; /* This is a major reduction to prevent cut-off */
+        line-height: 1.3;
+        /* Add a small vertical space to prevent it from touching the h2 */
+        margin-top: 5px; 
+    }
+}
