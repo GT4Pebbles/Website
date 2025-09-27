@@ -1,7 +1,7 @@
 # YAML template for a member of the team
 # The following fields are mandatory:
 # - name: Full name
-# - role: leader / staff / postdoc / phd / master
+# - role: leader / staff / postdoc / phd / master / bachelor / affiliated
 # - insitute: XX
 # - description: a two-line description of the person.
 #
@@ -13,8 +13,11 @@
 # - gitlab
 # - facebook
 # - twitter
+# - X
+# - bluesky
 # - linkedin
 # - webpage
+# - email
 #
 # Ask Carsten in case you want any other one.
 ---
@@ -25,4 +28,5 @@ description: Dust aggregatiion simulations and disk observations
 github: https://github.com/cdominik
 linkedin: https://www.linkedin.com/in/carsten-dominik-2151723/
 webpage: https://staff.fnwi.uva.nl/c.dominik/
-# email: c.dominik@uva.nl
+email: c.dominik@uva.nl
+bluesky: https:bluesky.com/cdominik

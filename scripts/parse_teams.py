@@ -18,6 +18,7 @@ _ROLES = {'leader': 'Principal Investigators',
           'postdoc': 'Postdoctoral Researchers',
           'phd': 'PhD Candidates',
           'master': 'Master & Bachelor Students',
+          'bachelor': 'Master & Bachelor Students',
           'affiliated': 'Affiliated Members',
           'former': 'Former Members'}
 
@@ -34,13 +35,15 @@ class Researcher(object):
 
     @property
     def social_media(self):
-        return {'github': {'a_class': 'github', 'i_class': 'fa fa-github'},
-                'gitlab': {'a_class': 'twt', 'i_class': 'fa fa-twitter'},
-                'facebook': {'a_class': 'fb', 'i_class': 'fa fa-facebook'},
-                'twitter': {'a_class': 'twt', 'i_class': 'fa fa-twitter'},
+        return {'github':   {'a_class': 'github',  'i_class': 'fa fa-github'},
+                'gitlab':   {'a_class': 'twt',     'i_class': 'fa fa-gitlab'},
+                'facebook': {'a_class': 'fb',      'i_class': 'fa fa-facebook'},
+                'twitter':  {'a_class': 'twt',     'i_class': 'fa fa-twitter'},
+                'X':        {'a_class': 'X',       'i_class': 'fa-brands fa-x-twitter'},
+                'bluesky':  {'a_class': 'bluesky', 'i_class': 'fa-brands fa-bluesky'},
                 'linkedin': {'a_class': 'linkdin', 'i_class': 'fa fa-linkedin'},
-                'email': {'a_class': 'linkdin', 'i_class': 'fa fa-email'},
-                'webpage': {'a_class': 'dribble', 'i_class': 'fa fa-dribbble'}}
+                'email':    {'a_class': 'linkdin', 'i_class': 'fa fa-envelope'},
+                'webpage':  {'a_class': 'dribble', 'i_class': 'fa fa-dribbble'}}
 
     @property
     def name(self):
@@ -58,6 +61,16 @@ class Researcher(object):
         """
         return self._filename
 
+    @property
+    def email(self):
+        return self._email
+
+    @email.setter
+    def email(self, new_email: str):
+        # Optional: Add simple validation if needed (e.g., check for '@')
+        assert isinstance(new_email, str), f"The new email needs to be a str, instead of {new_email}."
+        self._email = new_email
+        
     @filename.setter
     def filename(self, new_filename):
         self._filename = new_filename
