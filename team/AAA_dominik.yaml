@@ -1,7 +1,7 @@
 # YAML template for a member of the team
 # The following fields are mandatory:
 # - name: Full name
-# - role: leader / staff / postdoc / phd / master / bachelor / affiliated
+# - role: leader / staff / postdoc / phd / master / affiliated
 # - insitute: XX
 # - description: a two-line description of the person.
 #

@@ -18,7 +18,6 @@ _ROLES = {'leader': 'Principal Investigators',
           'postdoc': 'Postdoctoral Researchers',
           'phd': 'PhD Candidates',
           'master': 'Master & Bachelor Students',
-          'bachelor': 'Master & Bachelor Students',
           'affiliated': 'Affiliated Members',
           'former': 'Former Members'}
 
