@@ -6,7 +6,7 @@ all:
 clean:
 	rm blog.html index.html team.html
 
-index.html: templates/index_template.html scripts/parse_index.py team/*.yaml
+index.html: templates/index_template.html scripts/parse_index.py team/*.yaml posts/*.yaml
 	python3 scripts/parse_index.py -t templates/index_template.html -o index.html
 
 blog.html: templates/blog_template.html templates/blog-item-template.html scripts/parse_article.py posts/*.yaml

@@ -23,7 +23,7 @@ logger = logging.getLogger('main_M33_WR.py')
 logger.addHandler(logging.FileHandler(filename='log-python.log'))
 
 
-categories: dict[str, str] = {'paper': 'Papers', 'atel': 'ATels', 'talk': 'Talks', 'other': 'Other'}
+categories: dict[str, str] = {'news': 'News', 'paper': 'Papers', 'atel': 'ATels', 'talk': 'Talks', 'other': 'Other'}
 
 
 class Post(object):
@@ -297,7 +297,6 @@ def format_menu(posts):
     s = '<ul>\n<li><a href="portfolio-classic.html#" class="active" data-filter="*">All</a></li>'
     for cat in cats:
         s += f'<li><a href="portfolio-classic.html#" data-filter=".{cat}">{categories[cat]}</a></li>'
-
     s += '</ul>'
     return s
 
