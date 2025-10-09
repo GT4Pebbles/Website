@@ -203,7 +203,7 @@ class Post(object):
         return """<div class="feature-box col-md-6 col-lg-6 wow fadeInDown" data-wow-delay=".5s">
                         <div class="posts-thumb float-left px-3">
                             <a href="{urlpost}">
-                                <img alt="img" width="150rem;" height="94rem;" src="{imgpath}">
+                                <img alt="img" width="300rem;" height="188rem;" src="{imgpath}">
                             </a>
                         </div>
                         <div class="post-content">
