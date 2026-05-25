@@ -1,0 +1,11 @@
+# YAML Document starts with ---
+# Comments start with #
+---
+title: "Work on the injection mechanism"
+author: Carsten
+date: 2026-05-05
+category: news
+image: 20251004_Hiring.png
+link:  https://gt4pebbles.github.io/Website/posts/20260505_Injector.mp4
+reference: "Credit: Dominik"
+body: "In the laboratory in Braunschweig, work on the enjection mechanism for dust into the vacuum chamber is progressing."
