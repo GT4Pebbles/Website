@@ -15,3 +15,7 @@ blog.html: templates/blog_template.html templates/blog-item-template.html script
 team.html: templates/team_template.html scripts/parse_teams.py team/*.yaml
 	python3 scripts/parse_teams.py -t templates/team_template.html -o team.html -d team/ -v 
 
+newspush:
+	git add .
+	git commit -m "News post"
+	git push
