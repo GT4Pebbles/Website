@@ -1,0 +1,22 @@
+# YAML Document starts with ---
+# Comments start with #
+---
+# Title of the post
+title: New paper on coagulation with variable porosity
+# First name of the author of the post (only first name)
+author: Carsten
+# Date of the post in YYYY-MM-DD format
+date: 2026-04-17
+# Category: can be "news" "paper", "talk", "other"
+category: paper
+# filename with the image to be shown in the header of the post. general.jpg will put the default one
+image: 20260417-Schoell-Paper.jpg
+# Caption for the image (optional)
+caption: Dust distributions of the SC models after 10^6 years with bouncing (upper row) and without bouncing (lower row) 
+# Link to the website with more information. e.g. it can be the ADS url, or a website, etc.
+link: https://ui.adsabs.harvard.edu/abs/2026A%26A...710A.183S/abstract
+# Final line in the post, if it is a publication, put the reference in a format similat to SAO/ADS
+# e.g.  Name et al. 1999, Journal, issue, page
+reference: Schöll, Dullemond and Dominik 2026, A&A 710, A183
+# Write here the body of the post. Some characters may break the parsing, so you can use quotes for the full body.
+body: Context. During the first stages of dust coagulation in protoplanetary disks, the dust aggregates are expected to have a high degree of porosity. Most models of dust growth, however, do not take this into account. The reason for this is the technical complexity of this problem. Furthermore, the coagulation kernel for colliding porous or fractal dust aggregates is not well understood. Aims. We wish to explore the effect of aggregate porosity on the evolution of the dust population in protoplanetary disks, with an emphasis on the fragmentation and the bouncing barrier. Methods. We use the DustPy code, and implement porosity as a prescribed function of particle mass with the fractal dimension as a free parameter. In this way, we parameterize the ill-constrained physics of colliding porous or fractal aggregates, and we can explore the effect of different porosity prescriptions. We take into account the effect of porosity on the dust dynamics, while neglecting its effect on the collision outcomes. Results. We find that larger particle masses are reached for lower fractal dimensions. The maximum Stokes numbers that are reached do not depend on the fractal dimension in the case of fragmentation-limited growth and decrease with decreasing fractal dimension in the case of bouncing-limited growth. Furthermore, particle growth is slower for smaller fractal dimensions in our models. Conclusions. Dust evolution is strongly influenced by the fractal dimension. Although larger masses are reached for smaller fractal dimensions, the particles are still much smaller than planetesimals. Under the assumption that the bouncing and fragmentation velocities do not depend on the fractal dimension or filling factor, fractal growth is not beneficial for the streaming instability to occur in the case of fragmentation-limited growth and even disadvantageous in the case of bouncing-limited growth.

@@ -19,3 +19,9 @@ acp:
 	git add .
 	git commit -m "News post"
 	git push
+
+RSYNC_PARS = -av --delete --size-only
+EXCLUDE = --exclude=.Trashes --exclude .git --exclude=".Spotlight-V100"
+
+copy:
+	rsync $(RSYNC_PARS) ./ /Users/dominik/Dropbox/Websites/uva.nl/WWW/GT4Pebbles $(EXCLUDE)
