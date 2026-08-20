@@ -10,7 +10,7 @@ date: 2026-05-05
 # Category: can be "news" "paper", "talk", "other"
 category: news
 # filename with the image to be shown in the header of the post. general.jpg will put the default one
-image: 20260505-foundation.jpg
+image: 20260505_foundation.jpg
 # Caption for the image (optional)
 caption: The four concrete foundations pieces for the experement are in place in Braunschweig
 # Link to the website with more information. e.g. it can be the ADS url, or a website, etc.
