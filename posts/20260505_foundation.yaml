@@ -1,0 +1,22 @@
+# YAML Document starts with ---
+# Comments start with #
+---
+# Title of the post
+title: Foundation for the experimental setup is in place
+# First name of the author of the post (only first name)
+author: Carsten
+# Date of the post in YYYY-MM-DD format
+date: 2026-05-05
+# Category: can be "news" "paper", "talk", "other"
+category: news
+# filename with the image to be shown in the header of the post. general.jpg will put the default one
+image: 20260505-foundation.jpg
+# Caption for the image (optional)
+caption: The four concrete foundations pieces for the experement are in place in Braunschweig
+# Link to the website with more information. e.g. it can be the ADS url, or a website, etc.
+link: 
+# Final line in the post, if it is a publication, put the reference in a format similat to SAO/ADS
+# e.g.  Name et al. 1999, Journal, issue, page
+reference:
+# Write here the body of the post. Some characters may break the parsing, so you can use quotes for the full body.
+body: In the new experimental laboratory hall, the foundation for the levitation drum has been placed.
